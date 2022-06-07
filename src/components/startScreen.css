@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgb(50, 115, 131) 0px 10px 40px -10px;
+        border-radius: 10px;
+        max-width: 98%;
+    }
+    
+    p {
+        font-size: 14px;
+        margin: 20px;
+    }
+    button {
+        font-size: 16px;
+        padding: 10px 35px;
+        margin: 20px;
+        background-color: #80087a;
+        border: none;
+        box-shadow: none;
+    }
+}

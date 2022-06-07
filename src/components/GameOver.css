@@ -1,0 +1,18 @@
+span {
+    color: #0fffc1;
+}
+
+@media screen and (max-width: 600px) {
+    .gameover {
+        box-shadow: rgb(50, 115, 131) 0px 10px 40px -10px;
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
