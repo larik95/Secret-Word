@@ -61,7 +61,7 @@
 @media screen and (max-width: 600px) {
 
     .game {
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
